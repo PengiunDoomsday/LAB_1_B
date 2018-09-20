@@ -60,6 +60,8 @@ def process_comments(comments,c):
 #sorting Def taking in scores and comment to be placed in appropriate list based on score
 def list_sorting(cmnt,pos_score,neut_score,neg_score):
 	#print(cmnt)
+	# for this part what about instead of just printing " this comment was added and so on... what about having it print the actual comment
+	# or having the parent comment appear due to not being able to differentiate between the comments
 	if pos_score > neut_score >neg_score:
 		positive_comments_list.append(cmnt)
 		#print("this comment was added to Pos  list with a Pos Score of",pos_score," a neg score of ",neg_score," and a neut_score of ",neut_score," -------->")
